@@ -18,9 +18,8 @@ a{
 }
 
 img{
-    display: flex;
-    height: 250px;
-    width: 650px;
+    width: 100px;
+    height: 100px;
 }
 
 .header-container{
@@ -85,4 +84,55 @@ img{
 
 .img-container{
     padding-top: 100px;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.info{
+    max-width: 200px;
+    text-align: center;
+}
+
+.img-header{
+    width: 650px;
+    height: 250px;
+    display: flex;
+}
+
+.info-squares{
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+}
+
+.info-container{
+    padding: 8px 300px 50px 300px;
+}
+
+.quote-container{
+    background: #E4E7EB;
+    padding: 50px 400px 50px 400px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.text{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.qFrom{
+    font-weight: bold;
+    font-size: 18px;
+    color: #1F2937;
 }
