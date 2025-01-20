@@ -136,3 +136,28 @@ img{
     font-size: 18px;
     color: #1F2937;
 }
+
+.call-container{
+    padding: 50px 400px 50px 400px;
+    display: flex;
+    gap: 10px;
+}
+
+.call-modal{
+    display: flex;
+    justify-content: space-between;
+    background: #3882f6;
+    width: 1500px;
+    height: fit-content;
+    border-radius: 5px;
+    color: white;
+}
+
+.action-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-text{
+    font-size: 12px;
+}
